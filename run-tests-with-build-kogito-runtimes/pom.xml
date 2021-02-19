@@ -55,6 +55,7 @@
           <!-- kogito-runtimes tests were not designed to run in parallel -->
           <parallelThreads>1</parallelThreads>
           <pomIncludes>
+            <pomInclude>kogito-runtimes*/addons/pom.xml</pomInclude>
             <pomInclude>kogito-runtimes*/integration-tests/*/pom.xml</pomInclude>
             <pomInclude>kogito-runtimes*/kogito-quarkus-extension/*/pom.xml</pomInclude>
           </pomIncludes>
